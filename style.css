@@ -1,0 +1,22 @@
+.jumbotron {
+    background-color: #264d73;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.container {
+    max-width: 95%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.col-lg-12.col-sm-6.mb-4 {
+    background-color: lightgray;
+}
