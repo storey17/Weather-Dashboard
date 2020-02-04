@@ -26,7 +26,7 @@
             <aside class="col-lg-4">
                 <nav class="navbar navbar-light bg-light">
                     <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" aria-label="Search">
+                        <input class="form-control mr-sm-2" type="search" id="city-input">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
                                 class="fas fa-search"></i></button>
                     </form>
@@ -36,9 +36,7 @@
                         <h4 class="card-title">Recent Searches:</h4>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item" id="search1">HolderLi</li>
                     </ul>
                 </article>
             </aside>
@@ -49,8 +47,11 @@
                     <div class="col-lg-12 col-sm-6 mb-4">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text"></p>
+                                <h5 class="card-title">City Name</h5>
+                                <p class="card-text" id="temp">Temperature: </p>
+                                <p class="card-text" id="humidity">Humidity: </p>
+                                <p class="card-text" id="wind">Wind Speed: </p>
+                                <p class="card-text" id="uv">UV Index: </p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +61,7 @@
                         <div class="col-md-2 col-sm-6 mt-5 mr-3">
                             <div class="card">
                                 <div class="card-body">
-                                    Storey Sheldon
+                                    Storey
                                 </div>
                             </div>
                         </div>
